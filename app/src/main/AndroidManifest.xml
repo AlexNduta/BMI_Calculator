@@ -11,6 +11,9 @@
         android:theme="@style/Theme.BMICalculator">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,5 +22,6 @@
             </intent-filter>
         </activity>
     </application>
+    .SplashScreen
 
 </manifest>
